@@ -13,14 +13,21 @@
 
 
 //Anonymous function:
-var isAdult = function (age) {
-    if (age >= 18) {
-        return "Yes";
-    }
+// var isAdult = function (age) {
+//     if (age >= 18) {
+//         return "Yes";
+//     }
 
-    else
-    {
-        return "No";
-    }
-};
-alert (isAdult(19));
+//     else
+//     {
+//         return "No";
+//     }
+// };
+// alert (isAdult(19));
+///------------------------------
+
+//Auto Invoke Operator
+(function (x,y) {
+alert("Sum of x&y is"+(x+y));
+})(10,20); 
+/////////////////
